@@ -1,0 +1,17 @@
+.app {
+  padding: 20px;
+  font-family: $font-family;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.main {
+  background-color: $card-color;
+  padding: 20px;
+  border-radius: $border-radius;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

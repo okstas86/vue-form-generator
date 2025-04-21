@@ -1,0 +1,59 @@
+
+
+.form-generator {
+  background-color: $dark-gray;
+  padding: 2rem;
+  border-radius: 12px;
+  color: $white;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.page-title{
+  color: $white;
+}
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.form-control {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  background-color: $light-gray;
+  color: $white;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+.form-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-save,
+.btn-cancel {
+  padding: 0.6rem 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-save {
+  background-color: $primary;
+  color: $white;
+}
+
+.btn-cancel {
+  background-color: $danger;
+  color: $white;
+}

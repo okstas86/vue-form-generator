@@ -1,0 +1,38 @@
+// src/styles/base.scss
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family;
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+a {
+  text-decoration: none;
+  color: $accent-color;
+  transition: $transition;
+
+  &.router-link-active {
+    font-weight: bold;
+    border-bottom: 2px solid $accent-color;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+button {
+  background-color: $accent-color;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: $border-radius;
+  cursor: pointer;
+  transition: $transition;
+
+  &:hover {
+    opacity: 0.85;
+  }
+}
